@@ -1,0 +1,63 @@
+.main {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.button {
+    text-align: center;
+    color: white;
+    background: rgb(90, 76, 220);
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.workspaceButton {
+    min-width: 96px;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 82px;
+    width: 344px;
+    padding: 8px 16px;
+    transition: all .3s;
+}
+
+.workspaceButton:hover {
+    color: white;
+    background-color: #7b6fe2;
+}
+
+.workspaceButton svg path {
+    transition: all .3s;
+}
+
+.workspaceButton:hover svg path {
+    fill: white;
+}
+
+.logo {
+    margin: 16px;
+}
+
+.membersCount {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.button:hover {
+    background: rgb(123, 111, 226);
+}
